@@ -14,6 +14,19 @@
 <img src="https://i.imgur.com/ixtEfbT.png alt="Traffic Examination"/>
 </p>
 
+<h2>Pro's to VPC Peering<h2>
+	
+- Cost savings: VPC peering eliminates the need for expensive data transfer costs, as it allows for communication between VPCs over the AWS network without using public IPs or going through the internet.
+
+- Improved security: VPC peering provides a private, encrypted connection between VPCs, which can help to enhance security by keeping traffic within the AWS network.
+
+- Increased availability: VPC peering can improve the availability of resources by enabling direct communication between VPCs, which reduces the need for routing through other networks.
+
+- Simplified network architecture: VPC peering simplifies the network architecture by allowing VPCs to communicate with each other as if they were part of the same network, without requiring additional gateways or routers.
+
+- Enhanced performance: VPC peering can improve performance by reducing latency and improving network throughput, as traffic can be sent directly between VPCs over the AWS network.
+	
+	
 
 <h2>Environments and Technologies Used</h2>
 
@@ -175,7 +188,7 @@ Step.15 Finally We will be setting up a Reachability analyzer path. This will sc
 <br />
 <br />  
 
-Success!  We have finished pairing our two VPC's That we created.
+Success!  We have finished peering our two VPC's That we created.
 
 <p>
 <img src="https://i.imgur.com/BxG3atb.png alt"Rescource Group"/?
