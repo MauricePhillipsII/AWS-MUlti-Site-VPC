@@ -114,9 +114,13 @@ Step 2.a Next we are going to create a Route table. This will help route traffic
 <br />                                                            
 <br />
                                                             
-2e. The virtual machine has been created                                                            
+2e. Now we have to create our second VPC. Repeat earlier steps and go to the VPC tab.  This time after clicking the orange button make sure we check mark the box that says "Create VPC and more". This will Create the Subnet,Route table,internet gatway along with the vpc.  It will also configure them to the vpc as well.                                                           
 <p>
-<img src="https://imgur.com/C1z2KlR.png alt"Rescource Group"/?
+<img src="https://i.imgur.com/IFdHMDC.png alt"Rescource Group"/?
+</p>
+
+<p>
+<img src="https://i.imgur.com/LJ73wG4.png alt"Rescource Group"/?
 </p>
 
 
