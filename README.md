@@ -73,31 +73,43 @@
 <br />
 <br />
 
-Step 2.a Next we are going to create a Route table. This will help route traffic inside the vpc.
+Step 2.a Next we are going to create a Route table. This will help route traffic inside the vpc. click on Rout tables on the left tab menu.  Then you will see a Orange box that says "create a route table".
 
 <p>
-<img src="https://imgur.com/q4UtpZY.png alt"Rescource Group"/?
+<img src="https://i.imgur.com/9i6mGQB.png alt"Rescource Group"/?
+</p>
+<br />
+<br />  
+
+<p>
+<img src="https://i.imgur.com/1mpaxhQ.png alt"Rescource Group"/?
 </p>
 <br />
 <br />  
   
-2b. Choose the resource group, name, region and operating system for the VM. Then click review and create.
+2b. Now we are going to create an internet gatway(IGW) inside our VPC.  This is what allows Traffic from the internet to enter our VPC. Note: at this point the IGW is only created in the vpc but not connected to the vpc.
 <p>
-<img src="https://imgur.com/CWIg88Z.png alt"Rescource Group"/?
+<img src="https://i.imgur.com/2OxTJgS.png alt"Rescource Group"/?
 </p>
 <br />
-<br />                                                            
-                                                            
-2c. Choose the size, create a username and password, click the confirm box then click review and create. 
+<br /> 
+
 <p>
-<img src="https://imgur.com/pRi6kbD.png alt"Rescource Group"/?
+<img src="https://i.imgur.com/ME7uuBR.png alt"Rescource Group"/?
+</p>
+<br />
+<br /
+                                                            
+2c. We are now going to be configuring the Internet Gateway to be attached to our VPC. 
+<p>
+<img src="https://i.imgur.com/krSdl3H.png alt"Rescource Group"/?
 </p>
 <br />
 <br />
   
-2d. Also create a VM using Ubuntu as the operating system
+2d. we are going to be editing our route table so it can start flowing traffic from our vpc to the internet properly
 <p>
-<img src="https://imgur.com/Gcv021M.png alt"Rescource Group"/?
+<img src="https://i.imgur.com/pfXvmZv.png alt"Rescource Group"/?
 </p>
 <br />                                                            
 <br />
