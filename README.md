@@ -39,7 +39,7 @@
   
   <br />
 
-<h2>Creating the virtual machines<h2/>                                                             
+                                                           
 
 - Step 1. - Log into AWS Home console
 
@@ -181,5 +181,14 @@ Success!  We have finished pairing our two VPC's That we created.
 <img src="https://i.imgur.com/BxG3atb.png alt"Rescource Group"/?
 </p>
 <br />
-<br />  
+<br />
+
+<p>
+<img src="https://i.imgur.com/seyhc9B.jpg alt"Rescource Group"/?
+</p>
+<br />
+<br /> 	
+	
+	
+	
 
